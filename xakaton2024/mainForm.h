@@ -198,6 +198,43 @@ private: System::Windows::Forms::CheckBox^ checkBox6;
 private: System::Windows::Forms::CheckBox^ checkBox7;
 private: System::Windows::Forms::CheckBox^ checkBox8;
 private: System::Windows::Forms::CheckBox^ checkBox3;
+private: System::Windows::Forms::TableLayoutPanel^ chanel_panel;
+
+private: System::Windows::Forms::CheckBox^ checkBox9;
+private: System::Windows::Forms::CheckBox^ checkBox10;
+private: System::Windows::Forms::CheckBox^ checkBox11;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel8;
+private: System::Windows::Forms::CheckBox^ checkBox30;
+private: System::Windows::Forms::CheckBox^ checkBox31;
+private: System::Windows::Forms::CheckBox^ checkBox32;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel7;
+private: System::Windows::Forms::CheckBox^ checkBox27;
+private: System::Windows::Forms::CheckBox^ checkBox28;
+private: System::Windows::Forms::CheckBox^ checkBox29;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel6;
+private: System::Windows::Forms::CheckBox^ checkBox24;
+private: System::Windows::Forms::CheckBox^ checkBox25;
+private: System::Windows::Forms::CheckBox^ checkBox26;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel5;
+private: System::Windows::Forms::CheckBox^ checkBox21;
+private: System::Windows::Forms::CheckBox^ checkBox22;
+private: System::Windows::Forms::CheckBox^ checkBox23;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel4;
+private: System::Windows::Forms::CheckBox^ checkBox18;
+private: System::Windows::Forms::CheckBox^ checkBox19;
+private: System::Windows::Forms::CheckBox^ checkBox20;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel3;
+private: System::Windows::Forms::CheckBox^ checkBox15;
+private: System::Windows::Forms::CheckBox^ checkBox16;
+private: System::Windows::Forms::CheckBox^ checkBox17;
+private: System::Windows::Forms::TableLayoutPanel^ tableLayoutPanel2;
+private: System::Windows::Forms::CheckBox^ checkBox12;
+private: System::Windows::Forms::CheckBox^ checkBox13;
+private: System::Windows::Forms::CheckBox^ checkBox14;
+
+
+
+
 
 
 private: System::ComponentModel::IContainer^ components;
@@ -338,6 +375,38 @@ private: System::ComponentModel::IContainer^ components;
 			this->checkBox7 = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBox8 = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBox3 = (gcnew System::Windows::Forms::CheckBox());
+			this->chanel_panel = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox9 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox10 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox11 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel2 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox12 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox13 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox14 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel3 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox15 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox16 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox17 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel4 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox18 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox19 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox20 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel5 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox21 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox22 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox23 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel6 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox24 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox25 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox26 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel7 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox27 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox28 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox29 = (gcnew System::Windows::Forms::CheckBox());
+			this->tableLayoutPanel8 = (gcnew System::Windows::Forms::TableLayoutPanel());
+			this->checkBox30 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox31 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBox32 = (gcnew System::Windows::Forms::CheckBox());
 			this->menuStrip1->SuspendLayout();
 			this->toolStrip1->SuspendLayout();
 			this->tabControl1->SuspendLayout();
@@ -347,6 +416,14 @@ private: System::ComponentModel::IContainer^ components;
 			this->splitContainer1->Panel2->SuspendLayout();
 			this->splitContainer1->SuspendLayout();
 			this->tableLayoutPanel1->SuspendLayout();
+			this->chanel_panel->SuspendLayout();
+			this->tableLayoutPanel2->SuspendLayout();
+			this->tableLayoutPanel3->SuspendLayout();
+			this->tableLayoutPanel4->SuspendLayout();
+			this->tableLayoutPanel5->SuspendLayout();
+			this->tableLayoutPanel6->SuspendLayout();
+			this->tableLayoutPanel7->SuspendLayout();
+			this->tableLayoutPanel8->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// menuStrip1
@@ -1217,6 +1294,13 @@ private: System::ComponentModel::IContainer^ components;
 				71.89542F)));
 			this->tableLayoutPanel1->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				28.10458F)));
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel8, 0, 8);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel7, 0, 7);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel6, 0, 6);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel5, 0, 5);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel4, 0, 4);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel3, 0, 3);
+			this->tableLayoutPanel1->Controls->Add(this->tableLayoutPanel2, 0, 2);
 			this->tableLayoutPanel1->Controls->Add(this->label2, 1, 0);
 			this->tableLayoutPanel1->Controls->Add(this->label1, 0, 0);
 			this->tableLayoutPanel1->Controls->Add(this->checkBox1, 1, 1);
@@ -1227,6 +1311,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->tableLayoutPanel1->Controls->Add(this->checkBox7, 1, 6);
 			this->tableLayoutPanel1->Controls->Add(this->checkBox8, 1, 7);
 			this->tableLayoutPanel1->Controls->Add(this->checkBox3, 1, 8);
+			this->tableLayoutPanel1->Controls->Add(this->chanel_panel, 0, 1);
 			this->tableLayoutPanel1->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->tableLayoutPanel1->Location = System::Drawing::Point(0, 0);
 			this->tableLayoutPanel1->Name = L"tableLayoutPanel1";
@@ -1357,6 +1442,489 @@ private: System::ComponentModel::IContainer^ components;
 			this->checkBox3->TabIndex = 4;
 			this->checkBox3->UseVisualStyleBackColor = true;
 			// 
+			// chanel_panel
+			// 
+			this->chanel_panel->ColumnCount = 3;
+			this->chanel_panel->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent, 33.33333F)));
+			this->chanel_panel->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent, 33.33333F)));
+			this->chanel_panel->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent, 33.33333F)));
+			this->chanel_panel->Controls->Add(this->checkBox11, 0, 0);
+			this->chanel_panel->Controls->Add(this->checkBox10, 2, 0);
+			this->chanel_panel->Controls->Add(this->checkBox9, 1, 0);
+			this->chanel_panel->Location = System::Drawing::Point(3, 21);
+			this->chanel_panel->Name = L"chanel_panel";
+			this->chanel_panel->RowCount = 1;
+			this->chanel_panel->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->chanel_panel->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->chanel_panel->Size = System::Drawing::Size(103, 24);
+			this->chanel_panel->TabIndex = 10;
+			// 
+			// checkBox9
+			// 
+			this->checkBox9->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox9->AutoSize = true;
+			this->checkBox9->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->checkBox9->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox9->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox9->Location = System::Drawing::Point(34, 0);
+			this->checkBox9->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox9->Name = L"checkBox9";
+			this->checkBox9->Size = System::Drawing::Size(34, 24);
+			this->checkBox9->TabIndex = 0;
+			this->checkBox9->Text = L"1";
+			this->checkBox9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox9->UseVisualStyleBackColor = false;
+			// 
+			// checkBox10
+			// 
+			this->checkBox10->AutoSize = true;
+			this->checkBox10->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox10->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox10->Location = System::Drawing::Point(71, 3);
+			this->checkBox10->Name = L"checkBox10";
+			this->checkBox10->Size = System::Drawing::Size(29, 18);
+			this->checkBox10->TabIndex = 1;
+			this->checkBox10->UseVisualStyleBackColor = true;
+			// 
+			// checkBox11
+			// 
+			this->checkBox11->AutoSize = true;
+			this->checkBox11->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox11->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox11->Location = System::Drawing::Point(3, 3);
+			this->checkBox11->Name = L"checkBox11";
+			this->checkBox11->Size = System::Drawing::Size(28, 18);
+			this->checkBox11->TabIndex = 2;
+			this->checkBox11->UseVisualStyleBackColor = true;
+			// 
+			// tableLayoutPanel2
+			// 
+			this->tableLayoutPanel2->ColumnCount = 3;
+			this->tableLayoutPanel2->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel2->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel2->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel2->Controls->Add(this->checkBox12, 0, 0);
+			this->tableLayoutPanel2->Controls->Add(this->checkBox13, 2, 0);
+			this->tableLayoutPanel2->Controls->Add(this->checkBox14, 1, 0);
+			this->tableLayoutPanel2->Location = System::Drawing::Point(3, 51);
+			this->tableLayoutPanel2->Name = L"tableLayoutPanel2";
+			this->tableLayoutPanel2->RowCount = 1;
+			this->tableLayoutPanel2->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel2->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel2->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel2->TabIndex = 11;
+			// 
+			// checkBox12
+			// 
+			this->checkBox12->AutoSize = true;
+			this->checkBox12->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox12->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox12->Location = System::Drawing::Point(3, 3);
+			this->checkBox12->Name = L"checkBox12";
+			this->checkBox12->Size = System::Drawing::Size(28, 18);
+			this->checkBox12->TabIndex = 2;
+			this->checkBox12->UseVisualStyleBackColor = true;
+			// 
+			// checkBox13
+			// 
+			this->checkBox13->AutoSize = true;
+			this->checkBox13->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox13->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox13->Location = System::Drawing::Point(71, 3);
+			this->checkBox13->Name = L"checkBox13";
+			this->checkBox13->Size = System::Drawing::Size(29, 18);
+			this->checkBox13->TabIndex = 1;
+			this->checkBox13->UseVisualStyleBackColor = true;
+			// 
+			// checkBox14
+			// 
+			this->checkBox14->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox14->AutoSize = true;
+			this->checkBox14->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->checkBox14->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox14->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox14->Location = System::Drawing::Point(34, 0);
+			this->checkBox14->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox14->Name = L"checkBox14";
+			this->checkBox14->Size = System::Drawing::Size(34, 24);
+			this->checkBox14->TabIndex = 0;
+			this->checkBox14->Text = L"2";
+			this->checkBox14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox14->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel3
+			// 
+			this->tableLayoutPanel3->ColumnCount = 3;
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel3->Controls->Add(this->checkBox15, 0, 0);
+			this->tableLayoutPanel3->Controls->Add(this->checkBox16, 2, 0);
+			this->tableLayoutPanel3->Controls->Add(this->checkBox17, 1, 0);
+			this->tableLayoutPanel3->Location = System::Drawing::Point(3, 81);
+			this->tableLayoutPanel3->Name = L"tableLayoutPanel3";
+			this->tableLayoutPanel3->RowCount = 1;
+			this->tableLayoutPanel3->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel3->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel3->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel3->TabIndex = 12;
+			// 
+			// checkBox15
+			// 
+			this->checkBox15->AutoSize = true;
+			this->checkBox15->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox15->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox15->Location = System::Drawing::Point(3, 3);
+			this->checkBox15->Name = L"checkBox15";
+			this->checkBox15->Size = System::Drawing::Size(28, 18);
+			this->checkBox15->TabIndex = 2;
+			this->checkBox15->UseVisualStyleBackColor = true;
+			// 
+			// checkBox16
+			// 
+			this->checkBox16->AutoSize = true;
+			this->checkBox16->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox16->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox16->Location = System::Drawing::Point(71, 3);
+			this->checkBox16->Name = L"checkBox16";
+			this->checkBox16->Size = System::Drawing::Size(29, 18);
+			this->checkBox16->TabIndex = 1;
+			this->checkBox16->UseVisualStyleBackColor = true;
+			// 
+			// checkBox17
+			// 
+			this->checkBox17->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox17->AutoSize = true;
+			this->checkBox17->BackColor = System::Drawing::Color::Red;
+			this->checkBox17->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox17->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox17->Location = System::Drawing::Point(34, 0);
+			this->checkBox17->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox17->Name = L"checkBox17";
+			this->checkBox17->Size = System::Drawing::Size(34, 24);
+			this->checkBox17->TabIndex = 0;
+			this->checkBox17->Text = L"3";
+			this->checkBox17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox17->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel4
+			// 
+			this->tableLayoutPanel4->ColumnCount = 3;
+			this->tableLayoutPanel4->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel4->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel4->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel4->Controls->Add(this->checkBox18, 0, 0);
+			this->tableLayoutPanel4->Controls->Add(this->checkBox19, 2, 0);
+			this->tableLayoutPanel4->Controls->Add(this->checkBox20, 1, 0);
+			this->tableLayoutPanel4->Location = System::Drawing::Point(3, 111);
+			this->tableLayoutPanel4->Name = L"tableLayoutPanel4";
+			this->tableLayoutPanel4->RowCount = 1;
+			this->tableLayoutPanel4->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel4->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel4->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel4->TabIndex = 13;
+			// 
+			// checkBox18
+			// 
+			this->checkBox18->AutoSize = true;
+			this->checkBox18->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox18->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox18->Location = System::Drawing::Point(3, 3);
+			this->checkBox18->Name = L"checkBox18";
+			this->checkBox18->Size = System::Drawing::Size(28, 18);
+			this->checkBox18->TabIndex = 2;
+			this->checkBox18->UseVisualStyleBackColor = true;
+			// 
+			// checkBox19
+			// 
+			this->checkBox19->AutoSize = true;
+			this->checkBox19->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox19->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox19->Location = System::Drawing::Point(71, 3);
+			this->checkBox19->Name = L"checkBox19";
+			this->checkBox19->Size = System::Drawing::Size(29, 18);
+			this->checkBox19->TabIndex = 1;
+			this->checkBox19->UseVisualStyleBackColor = true;
+			// 
+			// checkBox20
+			// 
+			this->checkBox20->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox20->AutoSize = true;
+			this->checkBox20->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->checkBox20->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox20->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox20->Location = System::Drawing::Point(34, 0);
+			this->checkBox20->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox20->Name = L"checkBox20";
+			this->checkBox20->Size = System::Drawing::Size(34, 24);
+			this->checkBox20->TabIndex = 0;
+			this->checkBox20->Text = L"4";
+			this->checkBox20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox20->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel5
+			// 
+			this->tableLayoutPanel5->ColumnCount = 3;
+			this->tableLayoutPanel5->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel5->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel5->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel5->Controls->Add(this->checkBox21, 0, 0);
+			this->tableLayoutPanel5->Controls->Add(this->checkBox22, 2, 0);
+			this->tableLayoutPanel5->Controls->Add(this->checkBox23, 1, 0);
+			this->tableLayoutPanel5->Location = System::Drawing::Point(3, 141);
+			this->tableLayoutPanel5->Name = L"tableLayoutPanel5";
+			this->tableLayoutPanel5->RowCount = 1;
+			this->tableLayoutPanel5->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel5->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel5->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel5->TabIndex = 14;
+			// 
+			// checkBox21
+			// 
+			this->checkBox21->AutoSize = true;
+			this->checkBox21->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox21->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox21->Location = System::Drawing::Point(3, 3);
+			this->checkBox21->Name = L"checkBox21";
+			this->checkBox21->Size = System::Drawing::Size(28, 18);
+			this->checkBox21->TabIndex = 2;
+			this->checkBox21->UseVisualStyleBackColor = true;
+			// 
+			// checkBox22
+			// 
+			this->checkBox22->AutoSize = true;
+			this->checkBox22->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox22->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox22->Location = System::Drawing::Point(71, 3);
+			this->checkBox22->Name = L"checkBox22";
+			this->checkBox22->Size = System::Drawing::Size(29, 18);
+			this->checkBox22->TabIndex = 1;
+			this->checkBox22->UseVisualStyleBackColor = true;
+			// 
+			// checkBox23
+			// 
+			this->checkBox23->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox23->AutoSize = true;
+			this->checkBox23->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->checkBox23->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox23->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox23->Location = System::Drawing::Point(34, 0);
+			this->checkBox23->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox23->Name = L"checkBox23";
+			this->checkBox23->Size = System::Drawing::Size(34, 24);
+			this->checkBox23->TabIndex = 0;
+			this->checkBox23->Text = L"5";
+			this->checkBox23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox23->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel6
+			// 
+			this->tableLayoutPanel6->ColumnCount = 3;
+			this->tableLayoutPanel6->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel6->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel6->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel6->Controls->Add(this->checkBox24, 0, 0);
+			this->tableLayoutPanel6->Controls->Add(this->checkBox25, 2, 0);
+			this->tableLayoutPanel6->Controls->Add(this->checkBox26, 1, 0);
+			this->tableLayoutPanel6->Location = System::Drawing::Point(3, 171);
+			this->tableLayoutPanel6->Name = L"tableLayoutPanel6";
+			this->tableLayoutPanel6->RowCount = 1;
+			this->tableLayoutPanel6->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel6->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel6->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel6->TabIndex = 15;
+			// 
+			// checkBox24
+			// 
+			this->checkBox24->AutoSize = true;
+			this->checkBox24->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox24->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox24->Location = System::Drawing::Point(3, 3);
+			this->checkBox24->Name = L"checkBox24";
+			this->checkBox24->Size = System::Drawing::Size(28, 18);
+			this->checkBox24->TabIndex = 2;
+			this->checkBox24->UseVisualStyleBackColor = true;
+			// 
+			// checkBox25
+			// 
+			this->checkBox25->AutoSize = true;
+			this->checkBox25->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox25->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox25->Location = System::Drawing::Point(71, 3);
+			this->checkBox25->Name = L"checkBox25";
+			this->checkBox25->Size = System::Drawing::Size(29, 18);
+			this->checkBox25->TabIndex = 1;
+			this->checkBox25->UseVisualStyleBackColor = true;
+			// 
+			// checkBox26
+			// 
+			this->checkBox26->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox26->AutoSize = true;
+			this->checkBox26->BackColor = System::Drawing::Color::Yellow;
+			this->checkBox26->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox26->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox26->Location = System::Drawing::Point(34, 0);
+			this->checkBox26->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox26->Name = L"checkBox26";
+			this->checkBox26->Size = System::Drawing::Size(34, 24);
+			this->checkBox26->TabIndex = 0;
+			this->checkBox26->Text = L"6";
+			this->checkBox26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox26->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel7
+			// 
+			this->tableLayoutPanel7->ColumnCount = 3;
+			this->tableLayoutPanel7->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel7->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel7->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel7->Controls->Add(this->checkBox27, 0, 0);
+			this->tableLayoutPanel7->Controls->Add(this->checkBox28, 2, 0);
+			this->tableLayoutPanel7->Controls->Add(this->checkBox29, 1, 0);
+			this->tableLayoutPanel7->Location = System::Drawing::Point(3, 201);
+			this->tableLayoutPanel7->Name = L"tableLayoutPanel7";
+			this->tableLayoutPanel7->RowCount = 1;
+			this->tableLayoutPanel7->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel7->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel7->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel7->TabIndex = 16;
+			// 
+			// checkBox27
+			// 
+			this->checkBox27->AutoSize = true;
+			this->checkBox27->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox27->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox27->Location = System::Drawing::Point(3, 3);
+			this->checkBox27->Name = L"checkBox27";
+			this->checkBox27->Size = System::Drawing::Size(28, 18);
+			this->checkBox27->TabIndex = 2;
+			this->checkBox27->UseVisualStyleBackColor = true;
+			// 
+			// checkBox28
+			// 
+			this->checkBox28->AutoSize = true;
+			this->checkBox28->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox28->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox28->Location = System::Drawing::Point(71, 3);
+			this->checkBox28->Name = L"checkBox28";
+			this->checkBox28->Size = System::Drawing::Size(29, 18);
+			this->checkBox28->TabIndex = 1;
+			this->checkBox28->UseVisualStyleBackColor = true;
+			// 
+			// checkBox29
+			// 
+			this->checkBox29->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox29->AutoSize = true;
+			this->checkBox29->BackColor = System::Drawing::Color::Cyan;
+			this->checkBox29->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox29->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox29->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox29->Location = System::Drawing::Point(34, 0);
+			this->checkBox29->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox29->Name = L"checkBox29";
+			this->checkBox29->Size = System::Drawing::Size(34, 24);
+			this->checkBox29->TabIndex = 0;
+			this->checkBox29->Text = L"7";
+			this->checkBox29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox29->UseVisualStyleBackColor = false;
+			// 
+			// tableLayoutPanel8
+			// 
+			this->tableLayoutPanel8->ColumnCount = 3;
+			this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
+				33.33333F)));
+			this->tableLayoutPanel8->Controls->Add(this->checkBox30, 0, 0);
+			this->tableLayoutPanel8->Controls->Add(this->checkBox31, 2, 0);
+			this->tableLayoutPanel8->Controls->Add(this->checkBox32, 1, 0);
+			this->tableLayoutPanel8->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->tableLayoutPanel8->Location = System::Drawing::Point(3, 231);
+			this->tableLayoutPanel8->Name = L"tableLayoutPanel8";
+			this->tableLayoutPanel8->RowCount = 1;
+			this->tableLayoutPanel8->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
+			this->tableLayoutPanel8->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute, 20)));
+			this->tableLayoutPanel8->Size = System::Drawing::Size(103, 24);
+			this->tableLayoutPanel8->TabIndex = 17;
+			// 
+			// checkBox30
+			// 
+			this->checkBox30->AutoSize = true;
+			this->checkBox30->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox30->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox30->Location = System::Drawing::Point(3, 3);
+			this->checkBox30->Name = L"checkBox30";
+			this->checkBox30->Size = System::Drawing::Size(28, 18);
+			this->checkBox30->TabIndex = 2;
+			this->checkBox30->UseVisualStyleBackColor = true;
+			// 
+			// checkBox31
+			// 
+			this->checkBox31->AutoSize = true;
+			this->checkBox31->CheckAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox31->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox31->Location = System::Drawing::Point(71, 3);
+			this->checkBox31->Name = L"checkBox31";
+			this->checkBox31->Size = System::Drawing::Size(29, 18);
+			this->checkBox31->TabIndex = 1;
+			this->checkBox31->UseVisualStyleBackColor = true;
+			// 
+			// checkBox32
+			// 
+			this->checkBox32->Appearance = System::Windows::Forms::Appearance::Button;
+			this->checkBox32->AutoSize = true;
+			this->checkBox32->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->checkBox32->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->checkBox32->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->checkBox32->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->checkBox32->Location = System::Drawing::Point(34, 0);
+			this->checkBox32->Margin = System::Windows::Forms::Padding(0);
+			this->checkBox32->Name = L"checkBox32";
+			this->checkBox32->Size = System::Drawing::Size(34, 24);
+			this->checkBox32->TabIndex = 0;
+			this->checkBox32->Text = L"8";
+			this->checkBox32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->checkBox32->UseVisualStyleBackColor = false;
+			// 
 			// mainForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -1383,6 +1951,22 @@ private: System::ComponentModel::IContainer^ components;
 			this->splitContainer1->ResumeLayout(false);
 			this->tableLayoutPanel1->ResumeLayout(false);
 			this->tableLayoutPanel1->PerformLayout();
+			this->chanel_panel->ResumeLayout(false);
+			this->chanel_panel->PerformLayout();
+			this->tableLayoutPanel2->ResumeLayout(false);
+			this->tableLayoutPanel2->PerformLayout();
+			this->tableLayoutPanel3->ResumeLayout(false);
+			this->tableLayoutPanel3->PerformLayout();
+			this->tableLayoutPanel4->ResumeLayout(false);
+			this->tableLayoutPanel4->PerformLayout();
+			this->tableLayoutPanel5->ResumeLayout(false);
+			this->tableLayoutPanel5->PerformLayout();
+			this->tableLayoutPanel6->ResumeLayout(false);
+			this->tableLayoutPanel6->PerformLayout();
+			this->tableLayoutPanel7->ResumeLayout(false);
+			this->tableLayoutPanel7->PerformLayout();
+			this->tableLayoutPanel8->ResumeLayout(false);
+			this->tableLayoutPanel8->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
